@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1.
+        Hoov List
+    ul
+        each _hoov, i in hoovlist
+            li
+                a= _hoov
